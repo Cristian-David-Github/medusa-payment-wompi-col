@@ -2,7 +2,7 @@
   "name": "medusa-payment-wompi-col",
   "version": "0.0.1",
   "description": "Wompi COL integration for Medusa.js.",
-  "author": "Sebastian Rindom <c-david94@hotmail.com>",
+  "author": "Cristian S. David M <c-david94@hotmail.com>",
   "license": "MIT",
   "scripts": {
     "build": "babel src -d dist --extensions \".ts,.js\"",
