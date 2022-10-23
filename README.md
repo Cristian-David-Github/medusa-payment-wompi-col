@@ -8,6 +8,26 @@
 </h1>
 <p align="center">
 This repo provides the base to get you started with using wompi as payment provider. 
+
+Basic requeriments to use: Required Wompi Options
+     *  {base_url: "",
+     *   public_key: "",
+     *   private_key: "",  * 
+     * }
+
+you need to add this plugin into your medusa-config plugins array
+
+const plugins = [
+  //...
+  {
+    resolve: `medusa-payment-wompi-col`,
+    options: {
+      base_url: "wompi env url",
+      public_key: "wompi-pk",
+      private_key: "wompi-pk"
+    },
+  },
+]
 </p>
 <p align="center">
   <a href="https://github.com/medusajs/medusa/blob/master/LICENSE">
